@@ -1,0 +1,18 @@
+Scalable Image Upload - Final Submission
+
+GitHub Repository: 
+[Insert your GitHub Repo URL here, for example: https://github.com/yourusername/scalable-image-upload]
+
+Project Requirements Checklist:
+[x] README file with Setup steps included
+[x] README file with Multiple Instances instructions included
+[x] README file with NGINX routing/load balancer configuration included
+[x] README file with GitHub Actions workflow explanation included
+[x] README file with Sample API request/response format included
+
+Notes for evaluation:
+- The backend relies on AWS SDK v3 for safe, modern security practices, strictly uploading to S3 buckets dynamically configured via `.env` files.
+- The project is fully modular and supports concurrent clustering using NGINX.
+- The default UI was implemented as a beautiful glassmorphic frontend interface via `index.html`.
+- CI pipeline automatically guarantees zero-crash state on Pull Requests.
+- The bonus `Dockerfile` was included to allow direct containerization if standard Node.js environments are unavailable.

@@ -1,0 +1,48 @@
+# 🔒 Environment variables (NEVER commit secrets)
+.env
+.env.*
+
+# 📦 Node dependencies
+node_modules/
+
+# 📄 Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🧪 Test coverage
+coverage/
+
+# 🧰 Build output
+dist/
+build/
+
+# 🧠 OS junk
+.DS_Store
+Thumbs.db
+
+# 🧑‍💻 IDE / Editor
+.vscode/
+.idea/
+
+# 🐳 Docker (optional)
+*.pid
+*.seed
+*.pid.lock
+
+# 📁 NGINX temp/logs (if copied locally)
+nginx/logs/
+nginx/temp/
+
+# 🔐 AWS / credentials files
+*.pem
+*.key
+
+# 📦 Misc
+*.tgz
+*.zip
+
+# 🚫 Optional: ignore uploaded test images
+test.jpg
