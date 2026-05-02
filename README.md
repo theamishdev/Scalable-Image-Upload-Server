@@ -278,6 +278,3 @@ Amish Verma
 
 ---
 
-## 📜 License
-
-This project is for educational purposes.
